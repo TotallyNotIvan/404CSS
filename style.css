@@ -5,20 +5,21 @@ p,a {
     background-image: linear-gradient(to right, #D5D1CC, #1C1004);
     background-clip: text;
     color:transparent;
-    font-size: 50px;
+    font-size: 10vb;
     z-index: 1;
 }
 a{
-    color:yellow;
+    color:#E59241;
     text-decoration: none;
     text-align: center;
 }
 svg {
     position: absolute;
-    z-index: -1;
-    max-width: 10000px;
+    z-index: 1;
+    max-width: 100%;
+    left: 0;
+    top: 0;
 }
 body {
     background-image: linear-gradient(to bottom right, #252525, #000000);
-    position: relative;
 }
