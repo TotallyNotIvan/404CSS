@@ -1,7 +1,12 @@
-
+#heading,#footer{
+    text-align: left;
+    font-size: 3vb;
+}
+#footer{
+    font-size: 2vb;
+}
 p,a {
     font-family: Arial;
-    text-align: center;
     background-image: linear-gradient(to right, #D5D1CC, #1C1004);
     background-clip: text;
     color:transparent;
@@ -11,15 +16,14 @@ p,a {
 a{
     color:#E59241;
     text-decoration: none;
-    text-align: center;
 }
 svg {
     position: absolute;
     z-index: 1;
-    max-width: 100%;
+    max-width: 100vmax;
     left: 0;
-    top: 0;
 }
 body {
+    text-align: center;
     background-image: linear-gradient(to bottom right, #252525, #000000);
 }
