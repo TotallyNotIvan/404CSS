@@ -33,6 +33,7 @@ svg {
     max-width: 100vmax;
     left: 0;
     align-items: start;
+    transform: translate(-5vmax, -25vmax)
 }
 .box{
     border-radius: 3.5vmax;
@@ -45,10 +46,18 @@ svg {
     border-bottom: .5vmax solid #E59241;
     
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1300px){
+    svg{
+        transform: translate(-3vmax, -30vmax)
+    }
+}
+@media screen and (max-width: 900px){
     .heading{
         font-size: 2vmax;
         display:flex;
         justify-content: center;
+    }
+    svg{
+        transform: translate(-3vmax, -38vmax)
     }
 }
