@@ -1,6 +1,6 @@
 
 .heading{
-    color:#F5CA30;
+    color:#E59241;
     font-size: 2vmax;
 }
 #footer{
@@ -16,7 +16,7 @@ body {
     background-image: linear-gradient(to bottom right, #252525, #000000);
 }
 p,a {
-    font-family: Arial;
+    font-family: "Arial Bold";
     background-image: linear-gradient(to right, #D5D1CC, #1C1004);
     background-clip: text;
     color:transparent;
@@ -46,6 +46,15 @@ svg {
     border-bottom: .5vmax solid #E59241;
     
 }
+.box:hover { 
+    border-top: .6vmax solid #f59d46;
+    border-left: .6vmax solid #f59d46;
+    border-right: .6vmax solid #f59d46;
+    border-bottom: .6vmax solid #f59d46;
+    font-size: 5.2vmax;
+    color:#f59d46;
+
+  }
 @media screen and (max-width: 1300px){
     svg{
         transform: translate(-3vmax, -30vmax)
